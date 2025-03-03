@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple HTML CSS Form</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+
+  <body>
+    <div id="formcontainer">
+      <form action="" method="post">
+        <input
+          type="text"
+          placeholder="Full Name"
+          id="name"
+          maxlength="50"
+          required
+        />
+        <input
+          type="email"
+          placeholder="E-mail"
+          id="email"
+          maxlength="50"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Subject"
+          id="message"
+          maxlength="80"
+          required
+        />
+        <textarea
+          type="text"
+          placeholder="Type your message here..."
+          id="message"
+          maxlength="1000"
+          required
+        ></textarea>
+        <button type="submit" value="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </body>
+</html>
